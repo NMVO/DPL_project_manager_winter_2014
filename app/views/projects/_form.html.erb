@@ -1,0 +1,25 @@
+<%= form_for(@project) do |f| %>
+
+ <div class="field">
+   <%= f.label :title %><br />
+   <%= f.text_field :title %>
+ </div>
+
+ <div class="field">
+   <%= f.label :goal %><br />
+   <%= f.text_area :goal %>
+ </div>
+
+ <div>
+   <%= f.label :due_date %><br />
+   <%= f.datetime_select :due_date %>
+ </div><br />
+
+ <div class="btn btn-default">
+   <%= f.submit %>
+ </div>
+
+<% end %>
+
+
+

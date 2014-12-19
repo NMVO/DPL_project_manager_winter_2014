@@ -1,0 +1,15 @@
+
+<p>
+ <strong>Title:</strong>
+ <%= @project.title %></p>
+
+<p>
+ <stong>Due Date:</stong>
+ <%= @project.due_date %></p>
+
+<p>
+ <strong>Goal:</strong>
+ <%= @project.goal %></p><br />
+
+<%= link_to 'Back', projects_path %>
+<%= link_to 'Edit', edit_project_path(@project) %>
