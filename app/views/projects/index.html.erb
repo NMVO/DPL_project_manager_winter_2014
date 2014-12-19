@@ -1,6 +1,7 @@
-
-  <!-- <h1><span class="label label-primary">Projects</span></h1> -->
-
+ <!-- <h1><span class="label label-primary">Projects</span></h1> -->
+<h1><span class="label label-success"><%= link_to 'New Project', new_project_path %></span></h1>  
+<br />
+<br />
 
 <div class="panel panel-footer">
 <% @projects.each do |project| %>
@@ -38,4 +39,5 @@
 <% end %>
 </div>
 </div>
+
 
